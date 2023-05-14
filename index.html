@@ -1,111 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="utf-8">
-        <title>Sprints Form</title>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Ahmed Ramadan">
-        <meta name="description" content="Sprints Form Task">
-    </head>
-    <body style="background-color: rgba(47, 79, 79, 1);">
-        <form action="" method="post">
-            <fieldset style="background-color: rgb(46, 110, 110);">
-                <legend style="background-color: rgb(62, 133, 139);">Personal Data</legend>
-                <fieldset style="background-color: rgb(95, 158, 160);">
-                    <legend style="background-color: rgb(62, 133, 139);">Your Name</legend>
-                    <br>
-                    <table>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    <label for="first_name">First Name:</label>
-                                </td>
-                                <td>
-                                    <input type="text" name="first_name" id="first_name" placeholder="e.g. Mohamed" />
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>
-                                    <label for="last_name">Second Name:</label>
-                                </td>
-                                <td>
-                                    <input type="text" name="last_name" id="last_name" placeholder="e.g. Hashem" />
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </fieldset>
+
+<head>
+    <meta charset="utf-8">
+    <title>Sprints Form</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ahmed Ramadan">
+    <meta name="description" content="Sprints Form Task">
+</head>
+
+<body style="background-color: rgba(47, 79, 79, 1);">
+    <form action="" method="post">
+        <fieldset style="background-color: rgb(46, 110, 110);">
+            <legend style="background-color: rgb(62, 133, 139);">Personal Data</legend>
+            <fieldset style="background-color: rgb(95, 158, 160);">
+                <legend style="background-color: rgb(62, 133, 139);">Your Name</legend>
                 <br>
                 <table>
                     <tbody>
                         <tr>
                             <td>
-                                <label for="phone_number">Your Phone:</label>
+                                <label for="first_name">First Name:</label>
                             </td>
                             <td>
-                                <input type="tel" name="phone_number" id="phone_number" minlength="10" maxlength="15">
-                                <br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="email">Email:</label>
-                            </td>
-                            <td>
-                                <input type="email" id="email" name="email">
-                                <br>
+                                <input type="text" name="first_name" id="first_name" placeholder="e.g. Mohamed" />
                             </td>
                         </tr>
                         <tr>
                             <td>
-                                <label for="password">Password:</label>
+                                <label for="last_name">Second Name:</label>
                             </td>
                             <td>
-                                <input type="password" id="password" name="password">
-                                <br>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <label for="re_password">re-Password:</label>
-                            </td>
-                            <td>
-                                <input type="re_password" name="re_password" id="re_password">
+                                <input type="text" name="last_name" id="last_name" placeholder="e.g. Hashem" />
                             </td>
                         </tr>
                     </tbody>
                 </table>
-                <br>
-                <div>
-                    <input type="radio" name="gender" id="male" value="male" />
-                    <label for="male">Male</label>
-                    <br>
-                    <input type="radio" name="gender" id="female" value="female" />
-                    <label for="female">Female</label>
-                </div>
-                <br>
-                <div>
-                    <input type="checkbox" name="student" id="student">
-                    <label for="student">Student</label>
-                    <br>
-                    <input type="checkbox" name="graduate" id="graduate">
-                    <label for="graduate">Graduated</label>
-                    <br>
-                </div>
-                <br>
-                <div>
-                    <label for="university">University:</label>
-                    <select name="university" id="university">
-                        <option value="auc">AUC</option>
-                        <option value="guc">GUC</option>
-                        <option value="cu">CU</option>
-                        <option value="asu">ASU</option>
-                        <option value="zu">ZU</option>
-                    </select>
-                </div>
-                <br>
-                <div><input type="submit" style="color: white; background-color: black;"></div>
             </fieldset>
-        </form>
-    </body>
+            <br>
+            <table>
+                <tbody>
+                    <tr>
+                        <td>
+                            <label for="phone_number">Your Phone:</label>
+                        </td>
+                        <td>
+                            <input type="tel" name="phone_number" id="phone_number" minlength="10" maxlength="15">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="email">Email:</label>
+                        </td>
+                        <td>
+                            <input type="email" id="email" name="email">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="password">Password:</label>
+                        </td>
+                        <td>
+                            <input type="password" id="password" name="password">
+                            <br>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for="re_password">re-Password:</label>
+                        </td>
+                        <td>
+                            <input type="re_password" name="re_password" id="re_password">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <div>
+                <input type="radio" name="gender" id="male" value="male" />
+                <label for="male">Male</label>
+                <br>
+                <input type="radio" name="gender" id="female" value="female" />
+                <label for="female">Female</label>
+            </div>
+            <br>
+            <div>
+                <input type="checkbox" name="student" id="student">
+                <label for="student">Student</label>
+                <br>
+                <input type="checkbox" name="graduate" id="graduate">
+                <label for="graduate">Graduated</label>
+                <br>
+            </div>
+            <br>
+            <div>
+                <label for="university">University:</label>
+                <select name="university" id="university">
+                    <option value="auc">AUC</option>
+                    <option value="guc">GUC</option>
+                    <option value="cu">CU</option>
+                    <option value="asu">ASU</option>
+                    <option value="zu">ZU</option>
+                </select>
+            </div>
+            <br>
+            <div><input type="submit" style="color: white; background-color: black;"></div>
+        </fieldset>
+    </form>
+</body>
+
 </html>
